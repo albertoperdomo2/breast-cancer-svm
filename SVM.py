@@ -1,8 +1,5 @@
-# Python script for ISM
 # SVM: Support Vector Machines (Are non-probabilistic binary linear classifier)
 
-# ========================================================================================================================================================== #
-# ========================================================================================================================================================== #
 # imports
 import pandas as pd 
 import numpy as np 
@@ -17,7 +14,7 @@ from sklearn.metrics import plot_confusion_matrix
 
 from sklearn.model_selection import GridSearchCV
 
-cancer = pd.read_csv('./breast_cancer_data.csv') #/Users/albertoperdomogarcia/Documents/00-Documents_A/00-Dev/Python/Python_MASTER/ISM/breast_cancer
+cancer = pd.read_csv('./breast_cancer_data.csv')
 cancer = cancer.drop('id', axis=1) # id not relevant
 cancer = cancer.drop('Unnamed: 32', axis=1) # pandas issue
 # print(cancer.head(5))
