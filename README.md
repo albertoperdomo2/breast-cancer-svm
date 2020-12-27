@@ -1,4 +1,4 @@
-# SVM script for breast cancer detection
+# SVM model for breast cancer detection
 
 ## Prerequisites: 
 
