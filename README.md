@@ -6,7 +6,8 @@
 Python 3.5 - 3.8
 Libraries: SciKit-Learn, Numpy, Pandas, Matplotlib and Seaborn. 
 ```
- 
+
+## Context
 Cancer is one of the main causes of death along the entire world and reports of the World Health Organization state that almost the 30-50% of the new diagnosed cases each year could be pre- vented. Thanks to Artificial Intelligence and machine learning, nowadays there are more support tools for doctors that can help to early detect and diagnose this type of disease, because here as in many other fields, times really matter. So, the purpose of this project is to explain the development of a first version of a support tool for early detect breast cancer, predicting the nature (malign or benign) of the studied breast mass.
 
 The dataset can be downloaded from https://www.kaggle.com/uciml/breast-cancer-wisconsin-data since it is publicly available. 
